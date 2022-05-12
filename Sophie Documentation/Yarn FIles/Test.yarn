@@ -1,0 +1,23 @@
+﻿title: Start
+position: -25,-256
+---
+
+<<stop_movement Harper>>
+
+Dad: How was school?
+Harper: Well, I aced all my classes and was voted prom queen. All in a good day’s work.
+Dad: Really? Because your teacher called and asked why you’ve been falling asleep in his class every day.
+Harper: It’s AP World History at 8 am, Dad.  Practically everyone dozes off during his lectures.
+Dad: I don’t want to hear any excuses. Your sleep issues are probably why you got a 60 on the last exam.
+Harper: He told you about that?
+Dad: He didn’t have to. I found the test in your backpack.
+Harper: You went through my stuff!? That’s such an invasion of privacy!
+Dad: I wouldn’t have to do that if you would just talk to me. But you’re glued to your phone, staying up all night doing god knows what on it! No wonder you can’t stay awake at school.
+Harper: Maybe I don’t want to talk to you! I don’t even want to go to this school; I hate it here! I wish we never left Florida!
+Dad: Well, that’s not your decision. I moved us here to get a fresh start, but your bad habits are standing in the way of that. From now on, you’ll give your phone to me every school night at 10 pm before you go to sleep.
+Harper: No, that’s so unfair!
+Dad: My house, my rules, Harper. Maybe if you bring your grades up, I’ll reconsider.
+Harper: I hate this house, and I hate you!
+
+<<resume_movement Harper>>
+===

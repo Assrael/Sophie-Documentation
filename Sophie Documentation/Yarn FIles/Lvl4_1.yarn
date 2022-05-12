@@ -1,0 +1,15 @@
+title: Lvl4_1
+position: 0,0.5
+---
+<<stop_movement Harper>>
+
+Mom: Harper, you’ve been logged in here for hours. Maybe, it’s time to go back.
+Harper: What’s your problem!? You don’t want me here with you!? I thought you’d like the company.
+Mom: That’s not what I meant, sweetheart. But you haven’t been back to the house in hours. If you abuse your time here, this place will turn on you.
+Harper: The only thing turning on me is you. I never want to go back. I love my life here.
+Mom: Don’t you miss your father?
+Harper: I missed you! For a whole year, I’ve been missing you. And you don’t even want me. So just leave me alone!
+<<hide_mom Mom1>>
+
+<<resume_movement Harper>>
+===

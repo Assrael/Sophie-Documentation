@@ -1,0 +1,22 @@
+title: Lvl3_1
+position: 0,0.5
+---
+
+<<stop_movement Harper>>
+
+Harper: Hey! Wait up!
+<<unhide_mom Mom1>>
+Harper: Oh my god, mom?
+Mom: Hello, Harper.
+Harper: But how are you here? You’re supposed to be... Dead.
+Mom: In the digital world, you can make anything a reality just by posting about it. You can even make our family whole again.
+Harper: This is amazing! I can’t believe I get to talk to you again. I missed you so much!
+Mom: I missed you too, baby. You and your dad.
+Harper: This is all my fault. If you’d just never driven to pick me up from that sleepover, the accident never would’ve happened.
+Mom: That’s all in the past now, sweetie. And here you can act like it never happened.
+Harper: I never want to leave this place!
+Mom: And you never have to. Go on, have a look around.
+
+
+<<resume_movement Harper>>
+===

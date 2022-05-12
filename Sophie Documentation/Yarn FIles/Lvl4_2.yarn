@@ -1,0 +1,20 @@
+title: Lvl4_2
+position: 0,0.5
+---
+<<stop_movement Harper>>
+
+Harper: Mom, please come back! I don’t know what’s happening to me.
+<<unhide_mom Mom2>>
+Mom: I’m here.
+Harper: Maybe you were right, Mom. All these comments are just making me feel worse. I don’t seem to belong in this world or the real world.
+Mom: That’s not true. You can belong in both, but you can’t rely on this world alone for your self-worth and happiness. That pressure is what’s causing the digital world to crash.
+Harper: Is that why everything is glitching? Because of me?
+Mom: I tried to warn you. The digital world functions best in smaller doses. But you haven’t gone back to the real world in hours, and now the system is overloaded.
+Harper: So what can I do to fix it?
+Mom: You can’t. You have to escape this place before it crashes with you inside.
+Harper: No! I’m not leaving you behind! I just got you back.
+Mom: I wish we could be together right now, but things are just gonna go downhill the longer you stay.
+<<hide_mom Mom2>>
+
+<<resume_movement Harper>>
+===

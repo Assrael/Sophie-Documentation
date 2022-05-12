@@ -1,0 +1,15 @@
+title: Lvl3_2
+position: 0,0.5
+---
+<<stop_movement Harper>>
+
+Harper: Some of these comments are really mean. I wish I didn’t have to see them...
+Mom: You know, sweetie, if you ever want to take a break, all you have to do is log off from social media. Maybe get some fresh air in the real world.
+Harper: No way! I’d take the hateful comments over real life any day if it meant I could spend all my time with you in a perfect world.
+Mom: But that’s my point, Harper. No world, digital or real, is perfect.  You just have to find the right balance, for your own sanity.
+Harper: You’re just saying this because your my mom. Don’t worry, I have the perfect balance.
+<<hide_mom Mom2>>
+
+<<resume_movement Harper>>
+
+===

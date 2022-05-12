@@ -1,0 +1,15 @@
+title: Lvl4_4
+position: 0,0.5
+---
+<<stop_movement Harper>>
+
+Dad: You’ve been in your room so long, I was getting worried.
+Harper: I was mad at you.
+Dad: Look, sweetie, I’m sorry I yelled. I know I can never replace your mother but I can’t lose you, too. Can we try to meet in the middle?
+Harper: I don’t want to lose you, either.
+Harper: I love you, Dad. And I’m sorry for not showing it.
+Dad: I love you, too, Harper.
+Dad: Now, how about let's go to the park for a change?
+Harper: Okay!
+<<end Dad>>
+===

@@ -1,0 +1,18 @@
+title: Lvl4_3
+position: 0,0.5
+---
+<<stop_movement Harper>>
+
+
+Mom: This is it. The portal will take you back to the real world.
+Harper: What if I don’t want to go back? Maybe being trapped in the digital world with you forever isn’t such a bad deal.
+Mom: How about you give the real world a chance first? I know your dad would really appreciate the effort.
+Harper: I just don’t want to lose you.
+Mom: You could never.
+Harper: Will I be able to see you again? Can I ever come back?
+Mom: Focus on your life outside of this world for a while. You’ll find that happiness can come from the strangest places, even in rainy Oregon.
+Mom: This world will always be around for you when you’re ready again.
+Harper: I love you, Mom.
+
+<<resume_movement Harper>>
+===

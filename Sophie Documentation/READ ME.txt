@@ -1,0 +1,48 @@
+Sophie Toon Documentation
+
+────╔╗╔╗╔═╗╔╗╔╗╔══╗────
+────║╚╝║║╚╣║║║║║╔╗║────
+────║╔╗║║╔╣║╚╣╚╣╚╝║────
+════╩╩╩╩╩═╩╩═╩═╩══╩════
+
+Hello, there, I am Sophie, a programmer on the game Two Worlds for the Senior Design Project 2 course at UT Spring 2022. This document is meant to help explain what I contributed to this project.
+
+Main contributions:
+- Character controller
+- Character animator
+- Audio manager
+- Dialogue runner
+
+Image Descriptions:
+Dialogue example: an image of Harper speaking to her mother saying, "The only thing turning on me is you. I never want to go back. I love my life here." In a black text box. This is an example of the dialogue system in our game using YarnSpinner.
+
+Harper Prefab: Harper with a capsule 2d collider and 3 drawn circles for collision detection. 
+
+Harper Inspector: The inspector view on harpers prefab. shows the scripts: Movement, Better Jumping, and Collision.
+
+Harper Animator: This is the animation web of Harper. Note how there are 8 distinct animation states. 
+
+Video Description: A showcase of Harper's platforming capabilities from jumping, to wall climbing, to mid air dashes.
+
+Script Descriptions: Any Contribution from another teammate is noted in comments
+
+AnimationScript: Works in Tandem with the Movement and Collision Scripts. It detects what Harper is doing (such as if she is walking, jumping, or climbing)  and communicates with her animator to display the proper animations.
+
+AudioManager: I've used this script in multiple projects in the past. All it does is hold a collection of sfx that any other script in the scene can call. It makes handling sfxs a lot easier as we add more sources and sounds.
+
+BetterJumping: A small script that alters jumping to be relative to how long you hold the button. if you tap you hop, and if you hold you leap. Gives the player more place to express themselves through movement.
+
+CharacterInteraction: A common script that was used to initiate dialogue for many of the NPC interactions. Basically it calls the StartDialogue function in the YarnSpinner dialogue runner when you interact with them. It also has a few Yarn functions that are called on by yarn files. 
+
+Collision: Script that helps both Movement and AnimationScript detect what harper is touching and what her options are. essential for the wall jumping mechanic. 
+
+Exit: A simple script that is called after the final dialogue with Dad that sends you to the end screen. 
+
+Movement: Gives Harper the ability to walk, jump, climb, and dash. There are also a few yarn functions that halt her movement during dialogue. Various minor changes were made from the original tutorial script in order to refine the controls for our specific experience.
+
+Yarn Files: all of these files are the dialogue you see in the game. Due to the limited scope of our story very few of Yarn's features were used besides the Name function (Name: to display a name on top) and various custom yarn functions to halt movement and move the mother. All dialogue was courtesy of Kassia with edits from myself.
+
+AnimationScript, Collision, and Movement are all based off the following tutorial: https://github.com/mixandjam/Celeste-Movement 
+
+Better Jumping comes from the same tutorial but a different source: https://www.youtube.com/watch?v=7KiK0Aqtmzc&t=0s 
+
